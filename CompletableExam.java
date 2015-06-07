@@ -15,14 +15,14 @@ public class CompletableExam {
             long start = System.currentTimeMillis();
             while (System.currentTimeMillis() - start < 1000)
                 System.out.println("aaa");
-            return "3";
+            return "8";
         }, executor1);
 
         final CompletableFuture<String> future2 = CompletableFuture.supplyAsync(() -> {
             long start = System.currentTimeMillis();
             while (System.currentTimeMillis() - start < 1000)
             System.out.println("bbb");
-            return "5";
+            return "65";
         }, executor2);
 
 
