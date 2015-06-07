@@ -22,7 +22,7 @@ public class CompletableExam {
             long start = System.currentTimeMillis();
             while (System.currentTimeMillis() - start < 1000)
             System.out.println("bbb");
-            return "65";
+            refdsffsdturn "65";
         }, executor2);
 
 
