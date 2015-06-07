@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<project name="calc" default="calc" basedir=".">
+	<property name="dest.dir" value="classes"/>
+	<target name="calc">
+		<javac srcdir="." destdir="${dest.dir}">
+		</javac>
+		<jar jarfile="calc.jar" basedir="${dest.dir}"
+		     manifest="META-INF/MANIFEST.MF"
+		     includes="com/objectsbydesign/calc/**/*.class"/>
+	</target>
+
+</project>
+
