@@ -24,7 +24,7 @@ public class CompletableExam {
             System.out.println("bbb");
             return "65";
         }, executor2);
-
+ddasa
         future2.join();
         future1.join();
 
